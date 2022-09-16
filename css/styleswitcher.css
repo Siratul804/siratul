@@ -169,7 +169,23 @@
     text-align: center;
 	    margin-top: 25px;
 }
+
+/* video_etemp */
+
+.por_etemp_vide {
+ width: 600px;
+ height: 250px;
+}
+
+
 @media only screen and (max-width: 991px) {
+
+	.por_etemp_vide {
+		width: 310px;
+		height: 250px;
+	   }
+
+
 	#switcher {
 		top:40px;
 	}
@@ -178,6 +194,8 @@
 		display: none;
 	}
 }
+
+
 
 #switcher .dark_switch {
 	    margin-top: 5px;
